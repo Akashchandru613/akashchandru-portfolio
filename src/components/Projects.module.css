@@ -1,0 +1,191 @@
+/* Featured */
+.featured {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  transition: border-color 0.3s;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .featured { grid-template-columns: 1fr; padding: 1.5rem; }
+  .featuredTitle { font-size: 1.2rem; }
+  .featuredRight { display: none; }
+}
+
+@media (max-width: 480px) {
+  .featured { padding: 1.25rem; border-radius: 12px; }
+  .grid { grid-template-columns: 1fr; }
+  .card { padding: 1.25rem; }
+}
+
+.featuredBadge {
+  font-size: 0.72rem;
+  color: #22d3ee;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.featuredIcon, .cardIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.featuredTitle {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.8rem;
+}
+
+.featuredDesc {
+  color: #9ca3c8;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.featuredPoints {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.featuredPoints li {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  color: #9ca3c8;
+  font-size: 0.86rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.pointDot {
+  width: 5px;
+  height: 5px;
+  min-width: 5px;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.techTag {
+  background: rgba(129,140,248,0.07);
+  border: 1px solid rgba(129,140,248,0.2);
+  color: #a5b4fc;
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.73rem;
+  font-weight: 500;
+}
+
+.links { display: flex; gap: 0.8rem; }
+
+.linkBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #c7d2fe;
+  text-decoration: none;
+  font-size: 0.83rem;
+  font-weight: 500;
+  background: rgba(129,140,248,0.08);
+  border: 1px solid rgba(129,140,248,0.2);
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+.linkBtn:hover { background: rgba(129,140,248,0.18); color: #fff; border-color: #818cf8; }
+
+/* Code mockup */
+.featuredRight { display: flex; align-items: center; justify-content: center; }
+.featuredVisual {
+  width: 100%;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.codeMockup {
+  background: #0a0d18;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+.mockupBar {
+  background: #111527;
+  padding: 0.6rem 1rem;
+  display: flex;
+  gap: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+.mockupBar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.mockupBar span:nth-child(1) { background: #ff5f57; }
+.mockupBar span:nth-child(2) { background: #febc2e; }
+.mockupBar span:nth-child(3) { background: #28c840; }
+
+.mockupCode {
+  padding: 1.2rem;
+  font-size: 0.8rem;
+  color: #8892c0;
+  line-height: 1.9;
+}
+.cBlue { color: #818cf8; }
+.cGreen { color: #4ade80; }
+.cPurple { color: #c084fc; }
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.8rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+}
+.card:hover { box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+
+.cardTop { display: flex; justify-content: space-between; align-items: flex-start; }
+
+.cardTitle { font-size: 1rem; font-weight: 700; color: #fff; margin: 0.8rem 0 0.5rem; }
+.cardDesc { color: #9ca3c8; font-size: 0.83rem; line-height: 1.6; flex: 1; }
+
+.ghLink {
+  color: var(--muted);
+  transition: color 0.2s;
+  text-decoration: none;
+}
+.ghLink:hover { color: #c7d2fe; }

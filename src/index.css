@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --purple: #818cf8;
+  --purple-light: #c7d2fe;
+  --purple-dark: #4f46e5;
+  --cyan: #22d3ee;
+  --bg: #060810;
+  --surface: #0c0f1a;
+  --surface2: #111527;
+  --border: #1e2440;
+  --text: #f0f2ff;
+  --muted: #7b82a8;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  text-align: left;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 10px; }

@@ -1,0 +1,159 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .grid { grid-template-columns: 1fr; gap: 2rem; }
+  .statsGrid { grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  .statValue { font-size: 1.4rem; }
+}
+
+@media (max-width: 480px) {
+  .statsGrid { grid-template-columns: repeat(2, 1fr); }
+  .statCard { padding: 0.9rem; }
+}
+
+/* Left */
+.bio {
+  color: #9ca3c8;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.highlight {
+  color: #c7d2fe;
+  font-style: italic;
+}
+
+/* Currently building */
+.currentlyBox {
+  background: rgba(34,211,238,0.05);
+  border: 1px solid rgba(34,211,238,0.2);
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.currentlyHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #22d3ee;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+.liveIndicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4ade80;
+  animation: livePulse 1.5s ease infinite;
+  box-shadow: 0 0 0 0 rgba(74,222,128,0.4);
+}
+@keyframes livePulse {
+  0%,100% { box-shadow: 0 0 0 0 rgba(74,222,128,0.4); }
+  70%      { box-shadow: 0 0 0 6px rgba(74,222,128,0); }
+}
+
+.currentlyText {
+  color: #9ca3c8;
+  font-size: 0.87rem;
+  line-height: 1.7;
+}
+
+/* Learning */
+.learningLabel {
+  font-size: 0.72rem;
+  color: var(--muted);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+
+.learningTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.learningTag {
+  background: rgba(236,72,153,0.08);
+  border: 1px solid rgba(236,72,153,0.2);
+  color: #f9a8d4;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+/* Right: stats grid */
+.statsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.statCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: default;
+}
+
+.statValue {
+  font-size: 1.8rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #818cf8, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* What I bring */
+.whatIBring {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.4rem;
+}
+
+.wibTitle {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.wibItem {
+  font-size: 0.86rem;
+  color: #9ca3c8;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(30,36,64,0.8);
+  line-height: 1.5;
+}
+.wibItem:last-child { border-bottom: none; }

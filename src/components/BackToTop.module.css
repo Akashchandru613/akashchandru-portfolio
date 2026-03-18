@@ -1,0 +1,21 @@
+.btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #4f46e5, #818cf8);
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 500;
+  box-shadow: 0 0 20px rgba(129,140,248,0.4);
+}
+
+@media (max-width: 480px) {
+  .btn { bottom: 1.25rem; right: 1.25rem; width: 40px; height: 40px; }
+}

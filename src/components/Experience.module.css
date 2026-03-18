@@ -1,0 +1,112 @@
+.timeline { position: relative; }
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, #818cf8, #22d3ee, transparent);
+}
+
+.item {
+  padding-left: 2.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  left: -5px;
+  top: 8px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #818cf8, #22d3ee);
+  border: 2px solid var(--bg);
+  box-shadow: 0 0 14px rgba(129,140,248,0.8);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.8rem;
+  transition: border-color 0.3s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.company { font-size: 1.1rem; font-weight: 700; color: #fff; }
+.role { color: #a5b4fc; font-size: 0.88rem; font-weight: 500; margin-top: 0.2rem; }
+.location { color: var(--muted); font-size: 0.78rem; margin-top: 0.1rem; }
+
+.period {
+  font-size: 0.75rem;
+  color: #67e8f9;
+  background: rgba(34,211,238,0.08);
+  border: 1px solid rgba(34,211,238,0.25);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  white-space: nowrap;
+  height: fit-content;
+}
+
+.points { list-style: none; margin-bottom: 1.2rem; }
+.point {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  color: #9ca3c8;
+  font-size: 0.87rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.pointDot {
+  width: 5px;
+  height: 5px;
+  min-width: 5px;
+  border-radius: 50%;
+  background: #818cf8;
+  margin-top: 0.5rem;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  border-top: 1px solid rgba(30,36,64,0.8);
+  padding-top: 1rem;
+}
+
+.techTag {
+  background: rgba(129,140,248,0.06);
+  border: 1px solid rgba(129,140,248,0.18);
+  color: #a5b4fc;
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.73rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .item { padding-left: 1.75rem; }
+  .card { padding: 1.25rem; }
+  .header { flex-direction: column; gap: 0.4rem; }
+  .period { align-self: flex-start; }
+}
+
+@media (max-width: 480px) {
+  .item { padding-left: 1.5rem; margin-bottom: 1.75rem; }
+  .card { padding: 1rem; }
+  .company { font-size: 1rem; }
+}

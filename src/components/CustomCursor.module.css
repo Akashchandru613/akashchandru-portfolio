@@ -1,0 +1,46 @@
+@media (pointer: coarse) {
+  .dot, .ring { display: none; }
+}
+
+@media (pointer: fine) {
+  * { cursor: none !important; }
+}
+
+.dot {
+  position: fixed;
+  top: -4px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  background: #22d3ee;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transition: opacity 0.2s;
+  will-change: transform;
+}
+
+.ring {
+  position: fixed;
+  top: -18px;
+  left: -18px;
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid rgba(129, 140, 248, 0.7);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  transition: width 0.3s, height 0.3s, border-color 0.3s, background 0.3s;
+  will-change: transform;
+}
+
+.hover {
+  width: 56px;
+  height: 56px;
+  top: -28px;
+  left: -28px;
+  border-color: rgba(34, 211, 238, 0.6);
+  background: rgba(129, 140, 248, 0.08);
+}
+
+.dotHide { opacity: 0; }

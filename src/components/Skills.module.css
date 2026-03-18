@@ -1,0 +1,77 @@
+.groupsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .groupsGrid { grid-template-columns: 1fr; gap: 1rem; }
+  .group { padding: 1.25rem; }
+}
+
+.group {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.6rem;
+  transition: border-color 0.3s;
+}
+.group:hover { border-color: rgba(129,140,248,0.35); }
+
+.groupHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.groupIcon {
+  font-size: 1rem;
+  color: #22d3ee;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.groupName {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.skillRow {
+  margin-bottom: 1rem;
+}
+
+.skillMeta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.skillName {
+  font-size: 0.85rem;
+  color: #c7d2fe;
+  font-weight: 500;
+}
+
+.skillLevel {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.barTrack {
+  height: 5px;
+  background: rgba(30, 36, 64, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #4f46e5, #818cf8, #22d3ee);
+  box-shadow: 0 0 8px rgba(129,140,248,0.4);
+}
