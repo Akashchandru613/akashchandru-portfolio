@@ -100,6 +100,40 @@ export const experience = [
 export const projects = [
   {
     featured: true,
+    icon: '🔬',
+    title: 'ATLAS – AI-Powered Research Platform',
+    description: 'Full-stack multi-agent AI research platform enabling researchers to upload datasets and documents, run AI-powered analysis pipelines, and explore results through interactive dashboards.',
+    period: '2026',
+    tech: ['React', 'FastAPI', 'LangGraph', 'PostgreSQL', 'Google Gemini', 'Recharts'],
+    points: [
+      'Multi-agent system with 7 specialized AI agents orchestrated via LangGraph',
+      'Interactive dashboard with statistical analysis, correlation heatmaps, and custom chart builder',
+      'Literature search via Semantic Scholar API with auto-generated citations and BibTeX export',
+      'JWT authentication, research templates, and one-click ZIP export for reports',
+    ],
+    github: 'https://github.com/Akashchandru613/AI-Automated-Research-Platform',
+    demo: null,
+    color: '#818cf8',
+  },
+  {
+    featured: false,
+    icon: '🚀',
+    title: 'MARS – Multi-Agent Research System',
+    description: 'Orchestrated LLM agents for search, summarization, and fact-checking — benchmarked against a single-agent baseline to evaluate the impact of agent specialization on research quality.',
+    period: '2026',
+    tech: ['Python', 'LangGraph', 'Groq API', 'DuckDuckGo', 'arXiv', 'ROUGE'],
+    points: [
+      'Specialized agents for search, summarization, and fact-checking under an orchestrator',
+      'DuckDuckGo, Wikipedia, and arXiv retrieval pipeline',
+      'ROUGE, hallucination rate, and source coverage evaluation metrics',
+      'Benchmarked multi-agent vs single-agent research quality',
+    ],
+    github: 'https://github.com/Akashchandru613/MARS',
+    demo: null,
+    color: '#f472b6',
+  },
+  {
+    featured: false,
     icon: '⚡',
     title: 'SQLify – AI-Powered SQL Learning Platform',
     description: 'A full-stack educational platform that lets students learn SQL through sandboxed execution, AI-powered hints, and real-time progress tracking. Scaled to 500+ concurrent users with GCP auto-scaling.',
@@ -113,7 +147,7 @@ export const projects = [
     ],
     github: 'https://github.com/Akashchandru613/sqlify',
     demo: null,
-    color: '#818cf8',
+    color: '#22d3ee',
   },
   {
     featured: false,
@@ -130,7 +164,7 @@ export const projects = [
     ],
     github: 'https://github.com/Akashchandru613/llm-multimodal-pdf-chatbot',
     demo: null,
-    color: '#22d3ee',
+    color: '#4ade80',
   },
   {
     featured: false,
@@ -147,7 +181,23 @@ export const projects = [
     ],
     github: 'https://github.com/Akashchandru613/Bird-Song-Classification',
     demo: null,
-    color: '#4ade80',
+    color: '#f59e0b',
+  },
+  {
+    featured: false,
+    icon: '💾',
+    title: 'AWS Object Backup System',
+    description: 'Serverless backup system built with AWS CDK and Lambda for automated object-level backups, leveraging Infrastructure as Code for reproducible cloud deployments.',
+    period: '2026',
+    tech: ['TypeScript', 'AWS CDK', 'Lambda', 'Python', 'S3', 'CloudFormation'],
+    points: [
+      'Infrastructure as Code with AWS CDK for reproducible deployments',
+      'Lambda-based serverless architecture for event-driven backups',
+      'Automated S3 object backup with lifecycle management',
+    ],
+    github: 'https://github.com/Akashchandru613/_backup-system_AWS_CDK',
+    demo: null,
+    color: '#38bdf8',
   },
   {
     featured: false,
@@ -163,7 +213,7 @@ export const projects = [
     ],
     github: 'https://github.com/Akashchandru613/ChatBot-Portfolio-Integration',
     demo: null,
-    color: '#f59e0b',
+    color: '#a78bfa',
   },
   {
     featured: false,
@@ -195,7 +245,7 @@ export const projects = [
     ],
     github: 'https://github.com/Akashchandru613',
     demo: null,
-    color: '#a78bfa',
+    color: '#ec4899',
   },
   {
     featured: false,
@@ -211,7 +261,7 @@ export const projects = [
     ],
     github: 'https://github.com/Akashchandru613',
     demo: null,
-    color: '#ec4899',
+    color: '#e879f9',
   },
 ]
 
