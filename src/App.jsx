@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import LoadingScreen from './components/LoadingScreen'
-import CustomCursor from './components/CustomCursor'
 import ScrollProgress from './components/ScrollProgress'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -34,7 +33,6 @@ export default function App() {
 
       {!loading && (
         <>
-          <CustomCursor />
           <ScrollProgress />
           <Navbar />
           <Hero />

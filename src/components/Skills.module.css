@@ -16,7 +16,7 @@
   padding: 1.6rem;
   transition: border-color 0.3s;
 }
-.group:hover { border-color: rgba(129,140,248,0.35); }
+.group:hover { border-color: rgba(59,130,246,0.35); }
 
 .groupHeader {
   display: flex;
@@ -27,7 +27,7 @@
 
 .groupIcon {
   font-size: 1rem;
-  color: #22d3ee;
+  color: #38bdf8;
   font-family: monospace;
   font-weight: 700;
 }
@@ -52,7 +52,7 @@
 
 .skillName {
   font-size: 0.85rem;
-  color: #c7d2fe;
+  color: #93c5fd;
   font-weight: 500;
 }
 
@@ -72,6 +72,6 @@
 .barFill {
   height: 100%;
   border-radius: 10px;
-  background: linear-gradient(90deg, #4f46e5, #818cf8, #22d3ee);
-  box-shadow: 0 0 8px rgba(129,140,248,0.4);
+  background: linear-gradient(90deg, #1d4ed8, #3b82f6, #38bdf8);
+  box-shadow: 0 0 8px rgba(59,130,246,0.4);
 }

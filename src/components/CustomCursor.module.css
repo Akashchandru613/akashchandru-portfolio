@@ -1,46 +1,61 @@
 @media (pointer: coarse) {
-  .dot, .ring { display: none; }
+  .sword, .glow, .trail { display: none; }
 }
 
-@media (pointer: fine) {
-  * { cursor: none !important; }
-}
+/* Normal cursor restored */
 
-.dot {
+/* Sword */
+.sword {
   position: fixed;
   top: -4px;
   left: -4px;
-  width: 8px;
-  height: 8px;
-  background: #22d3ee;
-  border-radius: 50%;
   pointer-events: none;
   z-index: 99999;
-  transition: opacity 0.2s;
   will-change: transform;
+  filter: drop-shadow(0 0 6px rgba(59, 130, 246, 0.6));
+  transition: filter 0.3s;
 }
 
-.ring {
+.swordHover {
+  filter:
+    drop-shadow(0 0 10px rgba(56, 189, 248, 0.8))
+    drop-shadow(0 0 20px rgba(56, 189, 248, 0.4));
+}
+
+/* Glow aura behind sword */
+.glow {
   position: fixed;
-  top: -18px;
-  left: -18px;
-  width: 36px;
-  height: 36px;
-  border: 1.5px solid rgba(129, 140, 248, 0.7);
+  top: -14px;
+  left: -14px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
   pointer-events: none;
-  z-index: 99998;
-  transition: width 0.3s, height 0.3s, border-color 0.3s, background 0.3s;
+  z-index: 99997;
   will-change: transform;
+  transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s, background 0.3s;
 }
 
-.hover {
+.glowHover {
   width: 56px;
   height: 56px;
   top: -28px;
   left: -28px;
-  border-color: rgba(34, 211, 238, 0.6);
-  background: rgba(129, 140, 248, 0.08);
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, transparent 70%);
 }
 
-.dotHide { opacity: 0; }
+/* Trail particles */
+.trail {
+  position: fixed;
+  top: -2px;
+  left: -2px;
+  width: 4px;
+  height: 4px;
+  background: #3b82f6;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  will-change: transform;
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.5);
+}

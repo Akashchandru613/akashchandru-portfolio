@@ -100,12 +100,12 @@ export default function Hero() {
           <a href="#projects" className={styles.btnPrimary}>View My Work</a>
           <a href="#contact" className={styles.btnOutline}>Get In Touch</a>
           <a 
-  href="https://drive.google.com/uc?export=download&id=1JbBX9m7tSXIbh-DQXsmslbbiUXScd_-z" 
-  className={styles.btnGhost} 
-  download
-  target="_blank"
-  rel="noopener noreferrer"
->
+             href="https://drive.google.com/uc?export=download&id=1JbBX9m7tSXIbh-DQXsmslbbiUXScd_-z" 
+             className={styles.btnGhost} 
+             download
+             target="_blank"
+             rel="noopener noreferrer"
+            >
   <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
     <polyline points="7 10 12 15 17 10"/>

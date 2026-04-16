@@ -40,7 +40,7 @@ body::before {
 
 .section-label {
   font-size: 0.75rem;
-  color: var(--cyan);
+  color: var(--accent);
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 600;
@@ -57,7 +57,7 @@ body::before {
 }
 
 .section-title span {
-  background: linear-gradient(135deg, #818cf8, #22d3ee);
+  background: linear-gradient(135deg, #3b82f6, #38bdf8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

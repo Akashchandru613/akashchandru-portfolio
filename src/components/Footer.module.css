@@ -19,7 +19,7 @@
   width: 36px;
   height: 36px;
   border-radius: 8px;
-  background: linear-gradient(135deg, #4f46e5, #22d3ee);
+  background: linear-gradient(135deg, #1d4ed8, #38bdf8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 .copy { font-size: 0.83rem; color: #7b82a8; }
-.copy span { color: #a5b4fc; }
+.copy span { color: #93c5fd; }
 
 .built { font-size: 0.75rem; color: #4a5080; }
 

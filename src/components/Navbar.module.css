@@ -4,7 +4,7 @@
   width: 100%;
   background: rgba(6, 8, 16, 0.5);
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(129, 140, 248, 0.1);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -15,14 +15,14 @@
 
 .scrolled {
   background: rgba(6, 8, 16, 0.9);
-  border-color: rgba(129, 140, 248, 0.2);
+  border-color: rgba(59, 130, 246, 0.2);
 }
 
 .logo {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #4f46e5, #22d3ee);
+  background: linear-gradient(135deg, #1d4ed8, #38bdf8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +59,7 @@
   white-space: nowrap;
 }
 
-.link:hover { color: #c7d2fe; }
+.link:hover { color: #93c5fd; }
 .activeLink { color: #fff !important; }
 
 .activeDot {
@@ -68,8 +68,8 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #22d3ee;
-  box-shadow: 0 0 8px #22d3ee;
+  background: #38bdf8;
+  box-shadow: 0 0 8px #38bdf8;
 }
 
 /* Right-side group */
@@ -82,16 +82,16 @@
 .hirebtn {
   padding: 0.5rem 1.2rem;
   border-radius: 6px;
-  background: linear-gradient(135deg, #4f46e5, #818cf8);
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
   color: #fff;
   text-decoration: none;
   font-size: 0.82rem;
   font-weight: 600;
   transition: all 0.3s;
-  box-shadow: 0 0 20px rgba(129, 140, 248, 0.25);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
   white-space: nowrap;
 }
-.hirebtn:hover { transform: translateY(-2px); box-shadow: 0 0 30px rgba(129, 140, 248, 0.5); }
+.hirebtn:hover { transform: translateY(-2px); box-shadow: 0 0 30px rgba(59, 130, 246, 0.5); }
 
 /* Hamburger */
 .hamburger {
@@ -109,7 +109,7 @@
   display: block;
   width: 22px;
   height: 2px;
-  background: #c7d2fe;
+  background: #93c5fd;
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
   transform-origin: center;
@@ -127,7 +127,7 @@
   right: 0;
   background: rgba(6, 8, 16, 0.97);
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(129, 140, 248, 0.15);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.15);
   padding: 1.5rem 1.5rem 2rem;
   display: flex;
   flex-direction: column;
@@ -146,7 +146,7 @@
 }
 .mobileLink:hover, .mobileLinkActive {
   color: #fff;
-  background: rgba(129, 140, 248, 0.1);
+  background: rgba(59, 130, 246, 0.1);
 }
 
 .mobileHireBtn {
@@ -154,7 +154,7 @@
   padding: 0.85rem;
   text-align: center;
   border-radius: 8px;
-  background: linear-gradient(135deg, #4f46e5, #818cf8);
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
   color: #fff;
   text-decoration: none;
   font-size: 0.95rem;

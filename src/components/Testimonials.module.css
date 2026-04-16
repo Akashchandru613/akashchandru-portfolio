@@ -31,13 +31,13 @@
   transform: translateX(-50%);
   width: 40%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #818cf8, #22d3ee, transparent);
+  background: linear-gradient(90deg, transparent, #3b82f6, #38bdf8, transparent);
 }
 
 .quoteIcon {
   font-size: 5rem;
   line-height: 1;
-  color: rgba(129,140,248,0.15);
+  color: rgba(59,130,246,0.15);
   font-family: Georgia, serif;
   position: absolute;
   top: 1rem;
@@ -53,7 +53,7 @@
 }
 
 .text {
-  color: #c7d2fe;
+  color: #93c5fd;
   font-size: 1.05rem;
   line-height: 1.8;
   font-style: italic;
@@ -95,9 +95,9 @@
 }
 
 .navBtn {
-  background: rgba(129,140,248,0.08);
-  border: 1px solid rgba(129,140,248,0.2);
-  color: #a5b4fc;
+  background: rgba(59,130,246,0.08);
+  border: 1px solid rgba(59,130,246,0.2);
+  color: #93c5fd;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -107,7 +107,7 @@
   cursor: pointer;
   transition: all 0.2s;
 }
-.navBtn:hover { background: rgba(129,140,248,0.18); color: #fff; border-color: #818cf8; }
+.navBtn:hover { background: rgba(59,130,246,0.18); color: #fff; border-color: #3b82f6; }
 
 .dots { display: flex; gap: 0.4rem; }
 
@@ -122,8 +122,8 @@
 }
 
 .dotActive {
-  background: #22d3ee;
+  background: #38bdf8;
   width: 20px;
   border-radius: 3px;
-  box-shadow: 0 0 8px rgba(34,211,238,0.5);
+  box-shadow: 0 0 8px rgba(56,189,248,0.5);
 }

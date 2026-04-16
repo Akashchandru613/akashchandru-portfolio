@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --purple: #818cf8;
-  --purple-light: #c7d2fe;
-  --purple-dark: #4f46e5;
-  --cyan: #22d3ee;
+  --primary: #3b82f6;
+  --primary-light: #93c5fd;
+  --primary-dark: #1d4ed8;
+  --accent: #38bdf8;
   --bg: #060810;
   --surface: #0c0f1a;
   --surface2: #111527;
@@ -31,4 +31,4 @@ body {
 
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 10px; }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 10px; }

@@ -19,7 +19,7 @@
   width: 80px;
   height: 80px;
   border-radius: 20px;
-  background: linear-gradient(135deg, #4f46e5, #818cf8, #22d3ee);
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6, #38bdf8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,13 +27,13 @@
   font-weight: 900;
   color: #fff;
   letter-spacing: -1px;
-  box-shadow: 0 0 40px rgba(129, 140, 248, 0.4);
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.4);
 }
 
 .name {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #c7d2fe;
+  color: #93c5fd;
   letter-spacing: 2px;
 }
 
@@ -48,7 +48,7 @@
 
 .bar {
   height: 100%;
-  background: linear-gradient(90deg, #818cf8, #22d3ee);
+  background: linear-gradient(90deg, #3b82f6, #38bdf8);
   border-radius: 10px;
 }
 

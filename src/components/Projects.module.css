@@ -25,7 +25,7 @@
 
 .featuredBadge {
   font-size: 0.72rem;
-  color: #22d3ee;
+  color: #38bdf8;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 600;
@@ -90,9 +90,9 @@
 }
 
 .techTag {
-  background: rgba(129,140,248,0.07);
-  border: 1px solid rgba(129,140,248,0.2);
-  color: #a5b4fc;
+  background: rgba(59,130,246,0.07);
+  border: 1px solid rgba(59,130,246,0.2);
+  color: #93c5fd;
   padding: 0.2rem 0.65rem;
   border-radius: 4px;
   font-size: 0.73rem;
@@ -105,17 +105,17 @@
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  color: #c7d2fe;
+  color: #93c5fd;
   text-decoration: none;
   font-size: 0.83rem;
   font-weight: 500;
-  background: rgba(129,140,248,0.08);
-  border: 1px solid rgba(129,140,248,0.2);
+  background: rgba(59,130,246,0.08);
+  border: 1px solid rgba(59,130,246,0.2);
   padding: 0.4rem 0.9rem;
   border-radius: 6px;
   transition: all 0.2s;
 }
-.linkBtn:hover { background: rgba(129,140,248,0.18); color: #fff; border-color: #818cf8; }
+.linkBtn:hover { background: rgba(59,130,246,0.18); color: #fff; border-color: #3b82f6; }
 
 /* Code mockup */
 .featuredRight { display: flex; align-items: center; justify-content: center; }
@@ -155,9 +155,9 @@
   color: #8892c0;
   line-height: 1.9;
 }
-.cBlue { color: #818cf8; }
+.cBlue { color: #3b82f6; }
 .cGreen { color: #4ade80; }
-.cPurple { color: #c084fc; }
+.cPurple { color: #bae6fd; }
 
 /* Grid */
 .grid {
@@ -188,4 +188,4 @@
   transition: color 0.2s;
   text-decoration: none;
 }
-.ghLink:hover { color: #c7d2fe; }
+.ghLink:hover { color: #93c5fd; }
