@@ -3,6 +3,11 @@ name: Deploy Portfolio
 on:
   push:
     branches: [main]
+  # Daily rebuild so live GitHub stats (stars, last-updated) stay fresh and
+  # any new repos you've added show up without you touching this repo.
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -34,6 +39,9 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          # Raises GitHub API rate limit from 60 → 5000/hr for the sync step.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run build
 
       - name: Setup Pages

@@ -189,3 +189,21 @@
   text-decoration: none;
 }
 .ghLink:hover { color: #93c5fd; }
+
+/* Live stats from GitHub */
+.liveStats {
+  display: flex;
+  gap: 0.9rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+  align-items: center;
+}
+.liveStat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  letter-spacing: 0.3px;
+}
+.liveStat svg { opacity: 0.7; }

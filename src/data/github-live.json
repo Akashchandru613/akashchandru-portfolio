@@ -1,0 +1,115 @@
+{
+  "syncedAt": "2026-05-26T04:18:12.108Z",
+  "repos": {
+    "AI-Automated-Research-Platform": {
+      "name": "AI-Automated-Research-Platform",
+      "description": "ATLAS - AI-Powered Tool for Literature & Analytical Studies. Multi-agent research platform built with React, FastAPI, LangGraph, and PostgreSQL.",
+      "stars": 0,
+      "language": "Python",
+      "updatedAt": "2026-04-07T18:21:36Z",
+      "pushedAt": "2026-04-07T18:21:26Z",
+      "url": "https://github.com/Akashchandru613/AI-Automated-Research-Platform",
+      "homepage": null,
+      "topics": []
+    },
+    "ResumeAnalyzer": {
+      "name": "ResumeAnalyzer",
+      "description": "Serverless AI-powered resume analysis platform built on AWS — 8 microservices, live jobs, tailored resumes, application tracker",
+      "stars": 0,
+      "language": "Python",
+      "updatedAt": "2026-04-28T03:12:50Z",
+      "pushedAt": "2026-04-28T03:12:40Z",
+      "url": "https://github.com/Akashchandru613/ResumeAnalyzer",
+      "homepage": null,
+      "topics": []
+    },
+    "MARS": {
+      "name": "MARS",
+      "description": "Multi-Agent Research System (MARS) — orchestrated LLM agents for search, summarization, and fact-checking",
+      "stars": 0,
+      "language": "Python",
+      "updatedAt": "2026-04-02T00:17:04Z",
+      "pushedAt": "2026-04-02T00:17:01Z",
+      "url": "https://github.com/Akashchandru613/MARS",
+      "homepage": null,
+      "topics": []
+    },
+    "sqlify": {
+      "name": "sqlify",
+      "description": "SQLify is an interactive SQL learning platform built for both students and instructors. It offers structured courses with modules ranging from easy to hard, allowing students to practice SQL through quizzes that are automatically graded by AI. Students can enroll in any course, track their progress, and instantly receive grades upon completion.",
+      "stars": 0,
+      "language": "JavaScript",
+      "updatedAt": "2025-08-08T22:21:04Z",
+      "pushedAt": "2025-08-08T22:19:48Z",
+      "url": "https://github.com/Akashchandru613/sqlify",
+      "homepage": null,
+      "topics": []
+    },
+    "llm-multimodal-pdf-chatbot": {
+      "name": "llm-multimodal-pdf-chatbot",
+      "description": "This project is an AI-powered PDF Q&A chatbot built with LangChain to manage conversation flow",
+      "stars": 0,
+      "language": null,
+      "updatedAt": "2025-06-01T01:54:40Z",
+      "pushedAt": "2025-06-01T01:54:38Z",
+      "url": "https://github.com/Akashchandru613/llm-multimodal-pdf-chatbot",
+      "homepage": null,
+      "topics": []
+    },
+    "Bird-Song-Classification": {
+      "name": "Bird-Song-Classification",
+      "description": "CNN-based bird species classifier using mel spectrograms — 89% accuracy across 9 species with ~28k parameters",
+      "stars": 0,
+      "language": "Python",
+      "updatedAt": "2026-03-20T05:36:49Z",
+      "pushedAt": "2025-12-04T18:20:21Z",
+      "url": "https://github.com/Akashchandru613/Bird-Song-Classification",
+      "homepage": null,
+      "topics": []
+    },
+    "_backup-system_AWS_CDK": {
+      "name": "_backup-system_AWS_CDK",
+      "description": "AWS Object Backup System - CDK + Lambda",
+      "stars": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-28T00:17:24Z",
+      "pushedAt": "2026-03-28T00:16:04Z",
+      "url": "https://github.com/Akashchandru613/_backup-system_AWS_CDK",
+      "homepage": null,
+      "topics": []
+    },
+    "ChatBot-Portfolio-Integration": {
+      "name": "ChatBot-Portfolio-Integration",
+      "description": "Java/Spring Boot chatbot backend for seamless portfolio site integration",
+      "stars": 0,
+      "language": "Java",
+      "updatedAt": "2026-03-20T05:36:49Z",
+      "pushedAt": "2025-08-11T19:47:14Z",
+      "url": "https://github.com/Akashchandru613/ChatBot-Portfolio-Integration",
+      "homepage": null,
+      "topics": []
+    },
+    "iam-boto3": {
+      "name": "iam-boto3",
+      "description": "IAM assignment - boto3 IAM roles, users, and S3",
+      "stars": 0,
+      "language": "Python",
+      "updatedAt": "2026-02-03T20:21:42Z",
+      "pushedAt": "2026-02-03T20:19:54Z",
+      "url": "https://github.com/Akashchandru613/iam-boto3",
+      "homepage": null,
+      "topics": []
+    },
+    "legal-rag-pro": {
+      "name": "legal-rag-pro",
+      "description": "Production-grade legal RAG over U.S. case law: hybrid retrieval, cross-encoder rerank, citation-faithfulness checks, ablation table over 356 human-audited judgments.",
+      "stars": 0,
+      "language": "Python",
+      "updatedAt": "2026-05-26T04:17:45Z",
+      "pushedAt": "2026-05-26T04:17:40Z",
+      "url": "https://github.com/Akashchandru613/legal-rag-pro",
+      "homepage": null,
+      "topics": []
+    }
+  }
+}
